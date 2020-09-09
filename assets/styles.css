@@ -1,0 +1,37 @@
+body{
+  height:100%;
+}
+
+body .container {
+  display:grid;
+  place-items:center;
+}
+
+.container{
+  margin-top:8em;
+}
+
+.banner>img{
+  height: auto;
+  width: 100%;
+/* even more control with max-width */
+  max-width: 720px;
+}
+
+.heading>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #111111;
+  margin:0.9em;
+}
+
+.ohc-guide-logo{
+  margin:0;
+  padding:0;
+}
+
+.ohc-guide-logo>img{
+  height:auto;
+}
